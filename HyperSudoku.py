@@ -1,18 +1,3 @@
-#################################################################
-#                                                               #
-#    Define any helper functions you need in this file only.    #
-#    You will be handing in HyperSudoku.py, nothing else.       #
-#                                                               #
-#    A few test cases are provided in Test.py. You can test     #
-#    Your code by running: (See the file for more details)      #
-#               python Test.py                                  #
-#    in the directory where the files are located.              #
-#                                                               #
-#    We're using Python 3.X this time.                          #
-#                                                               #
-#################################################################
-
-
 class HyperSudoku:
     
 
@@ -161,9 +146,7 @@ class HyperSudoku:
     @staticmethod
     def printGrid(grid):
         """
-        Prints out the grid in a nice format. Feel free
-        to change this if you need to, it will NOT be 
-        used in marking. It is just to help you debug.
+        Prints out the grid in a nice format.
 
         Use as:     HyperSudoku.printGrid(grid)
         """
