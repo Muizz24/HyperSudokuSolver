@@ -3,16 +3,6 @@ from HyperSudoku import *
 
 #####################################################################
 #                                                                   #
-#   There will be other test cases when your code is graded.        #
-#   Feel free to add your own test cases here, this file will       #
-#   not be submitted. These are just for reference. You should      #
-#                                                                   #
-#   All timings are on BV473 machines with no one else logged       #
-#   in averaged across several runs. (Mathlab tends to be slower)   #
-#                                                                   #
-#   You can check how many users are logged in using the command    #
-#   'uptime' on the machine. (People might SSH'ing in)              #
-#                                                                   #
 #   Individial tests can be run as follows:                         #
 #      python3 Test.py TestHyperSudoku.test_One      (etc)          #
 #                                                                   #
@@ -21,8 +11,7 @@ from HyperSudoku import *
 
 class TestHyperSudoku(unittest.TestCase):
 
-    # This should be unsolvable. Make sure
-    # this runs within the time constraint!
+    # This should be unsolvable.
     #           Time on my solution ~0.68s
     def test_Unsolvable_One(self):
         grid = [[0, 0, 0, 0, 0, 0, 0, 0, 0],
